@@ -12,6 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
     i18n: {done: "Select"}
   })
 
+  //select initialization
+  let selects = document.querySelectorAll('select');
+   M.FormSelect.init(selects);
+
 });
 
 
